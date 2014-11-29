@@ -86,6 +86,7 @@ export PS1='\n`~/.rvm/bin/rvm-prompt i v`\n\[\033[00m\]\w\a\[\033[0m\]$(__git_ps
 export JAVA_HOME=/usr/lib/jvm/java-6-sun
 export EDITOR=/opt/RubyMine-3.2.4/bin/rubymine.sh
 
+alias pgstart='postgres -D /usr/local/var/postgres'
 alias gb='git branch'
 alias gba='git branch -a'
 alias gc='git commit -v'
